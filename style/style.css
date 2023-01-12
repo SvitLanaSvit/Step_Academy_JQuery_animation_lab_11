@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 20px auto;
+
+}
+
+.container{
+    display: flex;
+    position: absolute;
+}
+
+.inline_block{
+    display: flex;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+#dopMenu{
+    background-color: gray;
+    position: relative;
+}
+
+.menuLeft p{
+    color: white;
+}
+
+img{
+    width: 30px;
+}
+
+.center{
+    width: 80px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuLeft{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuRight{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.dopMenu{
+    width: 120px;
+    height: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.menu{
+    color: transparent;
+}
+
+#info{
+    background-color: bisque;
+    height: 400px;
+    width: 100vw;
+    padding: 20px 20px 20px 100px;
+    text-align: justify;
+    overflow: scroll;
+}
+
+/*--------------2-----------*/
+.wrapper_star{
+    max-width: 300px;
+    padding: 30px;
+    margin: 20px auto;
+    background-color: bisque;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerStars{
+    display: flex;
+    align-items: center;
+}
+
+.star{
+    margin: 0px 2px;
+}
